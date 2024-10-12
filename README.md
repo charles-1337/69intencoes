@@ -45,7 +45,8 @@ O projeto **69 Intenções** é uma loja virtual dedicada a produtos eróticos e
 ## Status do Projeto
 Este site está atualmente em fase de desenvolvimento. Algumas funcionalidades podem não estar completas ou operacionais.
 
-Conheça o Projeto
+## Conheça o Projeto
+
 Você pode visualizar o site em desenvolvimento clicando [**aqui**](https://charles-1337.github.io/69intencoes/).
 
 
