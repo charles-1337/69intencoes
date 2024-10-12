@@ -1,0 +1,83 @@
+/* Ajustes para telas menores (celulares e tablets) */
+@media (max-width: 768px) {
+    /* Ajustando o cabeçalho */
+    header .logo img {
+        width: 150px; /* Logo menor em telas menores */
+    }
+
+    header h1 {
+        font-size: 2rem; /* Reduzindo o tamanho do título */
+    }
+
+    nav ul {
+        flex-direction: column; /* Menu vertical em telas pequenas */
+        gap: 10px; /* Menor espaçamento */
+    }
+
+    nav ul li a {
+        font-size: 1rem; /* Ajustando o tamanho da fonte do menu */
+        padding: 5px; /* Menos padding nos itens do menu */
+    }
+
+    /* Ajuste do banner */
+    .hero {
+        padding: 50px 10px; /* Menor padding no banner */
+    }
+
+    .hero h2 {
+        font-size: 1.8rem; /* Tamanho do título menor no banner */
+    }
+
+    .hero p {
+        font-size: 1rem; /* Tamanho do parágrafo menor no banner */
+    }
+
+    .hero .btn {
+        padding: 10px 20px; /* Ajuste no botão */
+    }
+
+    /* Produtos em destaque */
+    .grid-produtos {
+        grid-template-columns: 1fr; /* Produtos em uma coluna no celular */
+        gap: 15px;
+    }
+
+    .produto {
+        padding: 15px; /* Reduzindo o padding dos produtos */
+    }
+
+    .produto h3 {
+        font-size: 1.2rem; /* Ajuste do título do produto */
+    }
+
+    .produto p {
+        font-size: 1rem; /* Ajuste da descrição do produto */
+    }
+}
+
+/* Ajustes para telas muito pequenas (até 480px) */
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.5rem; /* Título menor em telas muito pequenas */
+    }
+
+    .hero h2 {
+        font-size: 1.5rem;
+    }
+
+    .hero p {
+        font-size: 0.9rem;
+    }
+
+    .produto {
+        padding: 10px; /* Ainda menor para economizar espaço */
+    }
+
+    .produto h3 {
+        font-size: 1rem; /* Texto dos produtos mais compacto */
+    }
+
+    .produto p {
+        font-size: 0.9rem;
+    }
+}
